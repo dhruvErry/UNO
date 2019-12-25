@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
-public class uDec
+ class uDec
 {
     private List<uCard>dec=new ArrayList<>();
-    public uDec(){
+     uDec(){
         int a=0;
         int b=0;
         char[]cols={'r', 'b', 'g', 'y'};
