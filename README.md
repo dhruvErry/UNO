@@ -1,4 +1,4 @@
 # UNO
-### An artificial intelligence system which lets users play UNO with themselves or with the computer.
+### An adaptation of the famous game which lets users play with themselves or with the computer.
 
 To play, choose desired mode and you're good to go!
