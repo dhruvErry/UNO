@@ -1,9 +1,9 @@
-public class uPlayer
+ class uPlayer
 {
     private uHand h;
     private String name;
     private int hSize;
-    public uPlayer(String name){
+     uPlayer(String name){
         h=new uHand();
         this.name=name;
     }
@@ -32,5 +32,10 @@ public class uPlayer
     }
     int check(int a, char b, char c){
         return h.checCard(a, b, c);
+    }
+    boolean Won(){
+        if (h.getSize()==0)
+            return true;
+        return false;
     }
 }
